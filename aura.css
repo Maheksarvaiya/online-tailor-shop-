@@ -39,19 +39,34 @@ body{
     font-weight:700 ;
     color: var(--light);
     display: flex;
-    text-decoration: none;  
+    text-decoration: none;
 }
   .menu-toggle{
     font-size: 1.5rem;
     cursor: pointer;
     color: var(--light);
   }
+.icon {
+    
+    color: var(--light);
+    text-align: right;
+    position: relative;
+    left: 17%;
+}
+.auralogo a:hover{
+    color: black;
+    cursor: pointer;
+
+}
 
 .nav-links{
     display: flex;
     gap: 2rem;
     list-style: none;
+    position: relative;
+    left: 34%;
 }
+
 .nav-links a{
     text-decoration: none;
     color: var(--light);
@@ -102,8 +117,14 @@ body{
     color:var(--light);
     margin-bottom:2rem;
     line-height:1.6;
+}
+
+.shop a:hover{
+    color: black;
+    cursor: pointer;
 
 }
+
 .cta-button{
     color: var(--light);
     padding:1rem 2rem;
